@@ -1,0 +1,176 @@
+html,
+body,
+h1,
+h4,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../bg.jpg);
+  background-position: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+.nav-bar a {
+  line-height: 80px;
+  padding: 0 80px;
+  color: rgba(255, 255, 255, 0.479);
+  transition: all 0.5s;
+}
+
+.nav-bar a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  width: 100%;
+  min-height: 300px;
+  margin: 0 40px 0 0;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-container .column {
+  padding: 10px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.top {
+  padding: 210px 0 200px 0;
+}
+
+.top h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.form {
+  margin: 55px 80px 55px 0;
+}
+
+.form p {
+  color: white;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin: 5px 0 15px 0;
+  padding: 20px;
+  border: 1px solid #dee7ec;
+  border-radius: 100px;
+  color: grey;
+}
+
+.submit {
+  display: inline-block;
+  padding: 25px 200px;
+  background-color: rgb(21, 197, 21);
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  color: black;
+  box-shadow: 0 7px #1a7940;
+}
+
+.submit:hover {
+  background-color: rgba(41, 226, 41);
+}
+
+.submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.playlist {
+  height: 300px;
+  padding: 0 150px;
+  margin: 50px 0 0 195px;
+  background-color: rgba(22, 153, 22, 0.774);
+  border: 1px solid rgb(4, 44, 4);
+  border-radius: 20px;
+  box-shadow: 5px 10px #02250598;
+  text-align: center;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  margin: 30px 0 10px 0;
+}
+
+h4 {
+  color: white;
+  padding-bottom: 3px;
+}
+
+.playlist p {
+  color: rgb(211, 210, 210);
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.btn {
+  width: 50px;
+  padding: 5px;
+  border: 1px;
+}
+
+.btn:active {
+  background-color: rgb(172, 171, 171);
+  color: black;
+}
+
+footer {
+  background-color: rgb(20, 21, 27);
+  height: 20px;
+  width: 100%;
+  padding: 30px;
+}
+
+.cc {
+  color: rgba(255, 255, 255, 0.705);
+  float: right;
+  font-size: 16px;
+  line-height: 15px;
+}
